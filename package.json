@@ -3,21 +3,31 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start:dev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thanhcongnguyen/giacmotourist.git"
   },
-  "author": "thanhcongnguyen",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thanhcongnguyen/giacmotourist/issues"
   },
   "homepage": "https://github.com/thanhcongnguyen/giacmotourist#readme",
   "dependencies": {
+    "debug": "^3.1.0",
     "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
     "mocha": "^5.2.0"
   }
 }
