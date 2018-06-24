@@ -1,12 +1,9 @@
 var express = require('express');
-var app = express();
-const PORT = 3000;
-
 var routes = require('./routes/index');
-var auth = require('./routes/auth');
+
+var app = express();
 
 app.use('/', routes);
-app.use('/login', auth);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
