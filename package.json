@@ -1,6 +1,6 @@
 {
   "name": "giacmotourist",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -12,5 +12,23 @@
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhcongnguyen/giacmotourist.git"
+  },
+  "keywords": [
+    "giacmotourist"
+  ],
+  "author": "thanhcongnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhcongnguyen/giacmotourist/issues"
+  },
+  "homepage": "https://github.com/thanhcongnguyen/giacmotourist#readme",
+  "description": ""
 }
